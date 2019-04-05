@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: sctest-cache
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: admin
+    password: test
+
+server:
+  port: 8763
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+
+
